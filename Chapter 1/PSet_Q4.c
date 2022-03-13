@@ -15,7 +15,9 @@ int main()
     printf("Enter Principal Value : \n");
     scanf("%f", &P);
 
-    printf("\nTherefore Simple Interest after specified years will be: %f \n", P * r * t / 100);
+    float SI=P*r*t/100;
+
+    printf("\nTherefore Simple Interest after specified years will be: %f \n",SI);
 
     return 0;
 }

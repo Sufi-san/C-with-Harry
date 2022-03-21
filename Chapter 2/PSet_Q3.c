@@ -2,7 +2,7 @@
 /*IMPORTANT: Use of IF ELSE Statement is required.
   Though it will be taught in the next chapter,
   I will use an improv and try & run approach for,
-  writing the program.Will Google a lot :-) */
+  writing the program. Will Google a lot :-) */
 
 #include <stdio.h>
 
@@ -25,11 +25,11 @@ int main()
 
     if (b == 0)
     {
-        printf("The number is divisible by 97\n");
+        printf("%d is divisible by 97\n",x);
     }
     else
     {
-        printf("The number is not divisible by 97.\n");
+        printf("%d is not divisible by 97.\n",x);
     }
 
     return 0;

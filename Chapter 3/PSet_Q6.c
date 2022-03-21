@@ -8,10 +8,7 @@ int main()
     float a, b, c, d;
     float greatest;
     printf("Enter four numbers in succession (Press enter after each number):\n");
-    scanf("%f", &a);
-    scanf("%f", &b);
-    scanf("%f", &c);
-    scanf("%f", &d);
+    scanf("%f%f%f%f", &a, &b, &c, &d); // All inputs in one 'scanf' function.
 
     if (a >= b && a >= c && a >= d)
     {

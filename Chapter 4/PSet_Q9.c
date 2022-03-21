@@ -7,7 +7,7 @@ int main()
     int i = 1, n, factorial = 1, x;
     printf("Enter the number who's factorial is needed :\n");
     scanf("%d", &n);
-    printf("Choose the program : 1 for 'while' and 2 'do-while' loop.\n");
+    printf("Choose the program : 1 for 'while' and 2 for 'do-while' loop.\n");
     scanf("%d", &x);
     if (x == 1)
     {

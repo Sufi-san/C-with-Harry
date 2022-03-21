@@ -30,9 +30,13 @@ int main()
     {
         printf(" The student's grade is D.");
     }
-    else
+    else if (marks < 60)
     {
-        printf(" The student's grade is F");
+        printf(" The student's grade is F.");
+    }
+    else if (marks < 0 || marks > 100)
+    {
+        printf(" The marks entered are invalid.");
     }
     return 0;
 }

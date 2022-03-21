@@ -21,7 +21,7 @@ int main()
     printf("Physics marks : %d \n", Physics);
     printf("Chemistry marks : %d \n", Chemistry);
     printf("Mathematics marks : %d \n", Mathematics);
-    printf("Total marks : %d \n", Total);
+    printf("Total Obtained marks : %d \n", Total);
 
     if (Total >= 240 && Physics >= 66 && Chemistry >= 66 && Mathematics >= 66) // Harry used Criteria for fail in 'if-statment'.
     {

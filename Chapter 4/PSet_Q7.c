@@ -5,7 +5,7 @@
 
 int main()
 {
-  int i, sum = 0; // It is necessary to assign an initial value to sum variable to later use it in for-loop.
+  int i, sum = 0; // It is necessary to assign an initial value to 'sum' variable to later use it in for-loop.
   printf("The sum of all products of multiplication table of 8 is :\n");
   for (i = 0; i <= 10; i++)
   {

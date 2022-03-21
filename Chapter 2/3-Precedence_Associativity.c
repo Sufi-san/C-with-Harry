@@ -21,7 +21,7 @@ int main()
 
   printf("\nThe value of 3a/4b will depend on associativity.\n");
   // The operations will be performed left to right according to the input.
-  printf("Therefore, the answer will be :%d\n", 3 * a / 4 * b);
+  printf("Therefore, the answer will be {(3a)/4}b that is :%d\n", 3 * a / 4 * b);
   // To adjust the output, we need to use brackets in the input instruction.(Adding parenthesis)
   printf("Thus, another value of 3a/4b using parenthesis (3a)/(4b) is : %d\n", (3 * a) / (4 * b));
 

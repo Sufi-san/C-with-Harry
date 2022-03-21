@@ -9,7 +9,7 @@ int main()
    printf("The value of a - b is %d\n", a - b);
    printf("The value of a * b is %d\n", a * b);
    printf("The value of a / b is %d\n", a / b); // Rounded off to nearest integer because of %d.
-   printf("The value of a / b is %f\n", a / b); // For correct answer the variables should be assigned with float.
+   printf("The value of a / b is %f\n", a / b); // For correct answer with '%f' the variables should be assigned with float.
 
    int z;
    z = b * a; // Here b*a = z will be invalid because int/float/char are assignment operators.

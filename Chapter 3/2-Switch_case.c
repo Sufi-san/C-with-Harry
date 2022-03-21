@@ -4,8 +4,8 @@
 //   {
 //   case  (value assigned to variable-expression) :
 //       /* code */;
-//         break; --> /*It is necessary to add this break if you don't want it displayed in false case.*/
-//   default:
+//         break; --> //It is necessary to add this if you don't want the code for a false case to be displayed.
+//   default: --> // If none of the cases are true for the value of variable, the default code is displayed.
 //       /* code */;
 //   }
 

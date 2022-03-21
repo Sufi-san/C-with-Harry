@@ -25,7 +25,9 @@ int main()
     printf("Enter value for breadth of rectangle \n");
     scanf("%f", &x);
 
-    printf("Thus, Area of Rectangle : %f \n", a * x);
+    float Area = a * x; // The Area variable worked only when it was declared after assigning values to 'a' and 'x'.
+
+    printf("Thus, Area of Rectangle : %f \n", Area);
 
     return 0;
 }

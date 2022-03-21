@@ -1,4 +1,5 @@
 // Write a program to check whether a given number is prime or not using while and do-while loops.
+// In this program I have also used 'else if' for the conditions and not 'break' to just exit the loop.
 #include <stdio.h>
 
 int main()

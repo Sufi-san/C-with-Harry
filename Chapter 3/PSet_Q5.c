@@ -1,5 +1,5 @@
-/*Write a program to determine whether a character
-  entered by the user is lowercase or not.
+/* Write a program to determine whether a character
+   entered by the user is lowercase or not.
 
    In this program we will make use of ASCII values assigned to characters.
    As the computer only understands numbers, every character is assigned a
@@ -10,10 +10,10 @@
    When we display a 'char' variable using %c it's output is the same as input.
    However, when a %d is used to display the value we see it's ASCII code if
    the variable is a non-numeric character. Using this property, we will also be
-   able to display the ASCII code for each entered character .
+   able to display the ASCII code for each entered character.
 
-   Note: For successfully doing an input in the 'char' variable, we have to use
-   only %c, it won't accept the input if we use %d or %f.*/
+   Note: For successfully doing a character input in the 'char' variable, we have to use
+   only %c, it won't accept the (character or alphabet) input if we use %d or %f. */
 
 #include <stdio.h>
 

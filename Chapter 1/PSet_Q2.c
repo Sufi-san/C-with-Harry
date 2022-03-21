@@ -16,7 +16,7 @@ int main()
     printf("Enter value for radius of circle : \n");
     scanf("%f", &r);
 
-    printf("\nTherefore Area of Circle is pi*r^2, that is :%f \n", pi * r * r);
+    printf("\nTherefore, Area of Circle is pi*r^2, that is :%f \n", pi * r * r);
 
     // Calculating volume of cylinder by product of height and previous data.
 
@@ -25,6 +25,6 @@ int main()
     printf("\nEnter value for height of the cylinder : \n");
     scanf("%f", &h);
 
-    printf("\nThus,volume of cylinder : %f \n", pi * r * r * h);
+    printf("\nThus, volume of cylinder : %f \n", pi * r * r * h);
     return 0;
 }

@@ -4,20 +4,21 @@
 
 int main()
 {
-    float t, r, P;
+    int t;
+    float r, P;
 
     printf("\n\nCalculating simple interest. \n");
 
     printf("\nEnter Time in Years : \n");
-    scanf("%f", &t);
+    scanf("%d", &t);
     printf("Enter Rate of Interest in Percentage Value : \n");
     scanf("%f", &r);
     printf("Enter Principal Value : \n");
     scanf("%f", &P);
 
-    float SI=P*r*t/100;
+    float SI = P * r * t / 100;
 
-    printf("\nTherefore Simple Interest after specified years will be: %f \n",SI);
+    printf("\nTherefore, Simple Interest after %d years will be: %f \n", t, SI);
 
     return 0;
 }
